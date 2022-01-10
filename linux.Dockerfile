@@ -16,7 +16,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     vim \
     openjdk-8-jdk \
     maven \
-    cmake && \
+    cmake \
+    gfortran && \
     rm -rf /var/lib/apt/lists/*
 
 RUN update-java-alternatives --set java-1.8.0-openjdk-amd64
