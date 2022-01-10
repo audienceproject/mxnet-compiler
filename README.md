@@ -2,7 +2,7 @@
 * `git clone --recursive https://github.com/apache/incubator-mxnet mxnet`
 * `docker run -i -t -v $(pwd)/mxnet:/mxnet/ cosminsanda/mxnet-compiler:linux-1.7.0 bash`
 * `cd mxnet`
-* `git checkout 1.7.0.rc1`
+* `git checkout v1.8.x`
 * `cp config/linux.cmake config.cmake`
 * `mkdir build`
 * `cd build`
