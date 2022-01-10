@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     openjdk-8-jdk \
     maven \
     cmake \
+    python3 \
     gfortran && \
     rm -rf /var/lib/apt/lists/*
 
